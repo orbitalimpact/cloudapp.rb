@@ -13,8 +13,8 @@ Gem::Specification.new do |s|
   ## If your rubyforge_project name is different, then edit it and comment out
   ## the sub! line in the Rakefile
   s.name              = 'cloudapp'
-  s.version           = '2.1.0'
-  s.date              = '2013-01-22'
+  s.version           = '2.2.0'
+  s.date              = '2015-06-16'
   s.rubyforge_project = 'cloudapp'
 
   ## Make sure your summary is short. The description may be as long
@@ -43,11 +43,11 @@ Gem::Specification.new do |s|
 
   ## List your runtime dependencies here. Runtime dependencies are those
   ## that are needed for an end user to actually USE your code.
-  s.add_dependency 'clipboard',  '~> 1.0.1'
-  s.add_dependency 'leadlight',  '~> 0.1.0'
-  s.add_dependency 'mime-types', '~> 1.19'
-  s.add_dependency 'netrc',      '~> 0.7.7'
-  s.add_dependency 'typhoeus',   '~> 0.3.3'
+  s.add_dependency 'clipboard'
+  s.add_dependency 'leadlight'
+  s.add_dependency 'mime-types'
+  s.add_dependency 'netrc'    
+  s.add_dependency 'typhoeus'
 
   ## List your development dependencies here. Development dependencies are
   ## those that are only needed during development

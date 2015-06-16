@@ -1,23 +1,26 @@
 PATH
   remote: .
   specs:
-    cloudapp (2.1.0)
-      clipboard (~> 1.0.1)
-      leadlight (~> 0.1.0)
-      mime-types (~> 1.19)
-      netrc (~> 0.7.7)
-      typhoeus (~> 0.3.3)
+    cloudapp (2.2.0)
+      clipboard
+      leadlight
+      mime-types
+      netrc
+      typhoeus
 
 GEM
   remote: http://rubygems.org/
   specs:
     addressable (2.2.8)
-    clipboard (1.0.1)
-    diff-lcs (1.1.3)
+    clipboard (1.0.6)
+    diff-lcs (1.2.5)
+    ethon (0.7.3)
+      ffi (>= 1.3.0)
     fail-fast (1.0.0)
     faraday (0.8.1)
       multipart-post (~> 1.1)
-    fattr (2.2.1)
+    fattr (2.2.2)
+    ffi (1.9.8)
     hookr (1.1.1)
       fail-fast (= 1.0.0)
     hpricot (0.8.6)
@@ -29,28 +32,33 @@ GEM
       link_header
       mime-types
       multi_json (~> 1.0.4)
-    link_header (0.0.5)
-    mime-types (1.19)
+    link_header (0.0.8)
+    mime-types (2.6.1)
     multi_json (1.0.4)
-    multipart-post (1.1.5)
-    mustache (0.99.4)
-    netrc (0.7.7)
-    rake (10.0.3)
-    rdiscount (1.6.8)
+    multipart-post (1.2.0)
+    mustache (1.0.1)
+    netrc (0.10.3)
+    rake (10.4.2)
+    rdiscount (2.1.8)
     ronn (0.7.3)
       hpricot (>= 0.8.2)
       mustache (>= 0.7.0)
       rdiscount (>= 1.5.8)
-    rspec (2.12.0)
-      rspec-core (~> 2.12.0)
-      rspec-expectations (~> 2.12.0)
-      rspec-mocks (~> 2.12.0)
-    rspec-core (2.12.2)
-    rspec-expectations (2.12.1)
-      diff-lcs (~> 1.1.3)
-    rspec-mocks (2.12.1)
-    typhoeus (0.3.3)
-      mime-types
+    rspec (3.3.0)
+      rspec-core (~> 3.3.0)
+      rspec-expectations (~> 3.3.0)
+      rspec-mocks (~> 3.3.0)
+    rspec-core (3.3.0)
+      rspec-support (~> 3.3.0)
+    rspec-expectations (3.3.0)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.3.0)
+    rspec-mocks (3.3.0)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.3.0)
+    rspec-support (3.3.0)
+    typhoeus (0.7.1)
+      ethon (>= 0.7.1)
 
 PLATFORMS
   ruby
@@ -60,3 +68,6 @@ DEPENDENCIES
   rake
   ronn
   rspec
+
+BUNDLED WITH
+   1.10.4
